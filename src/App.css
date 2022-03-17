@@ -1,0 +1,70 @@
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+.expense-tracker{
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+.expense-tracker h1{
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.expenses{
+  display: flex;
+  justify-content: space-around;
+}
+.total-balance{
+  background-color: rgb(40, 151, 18);
+  color: white;
+  padding: 10px 40px;
+}
+.total-expense{
+  background-color: #e60c0c;
+  color: white;
+  padding: 10px 40px;
+}
+.transaction-form{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.transaction-form h1{
+  text-align: center;
+}
+.transaction-form p{
+  color:rgb(128, 7, 7)
+}
+.transaction-form input{
+  margin:10px 0px;
+}
+.transaction-list{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.transaction-list h1{
+  text-align: center;
+}
+.transaction-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 7px rgb(228, 217, 217);
+  margin-bottom: 10px;
+}
+.transaction-item p{
+  margin-bottom: 0px;
+}
+.transaction-item i{
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.transaction-history p{
+  color: #e60c0c;
+  text-align: center;
+}
